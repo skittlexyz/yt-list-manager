@@ -1,0 +1,11 @@
+* {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+#root {
+  margin: 0 auto;
+}
+.custom-drop-shadow {
+  box-shadow: 0px 16px 20px rgba(0, 0, 0, 1);
+}
