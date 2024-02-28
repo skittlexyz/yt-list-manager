@@ -18,6 +18,31 @@ function App() {
             url="https://www.youtube.com/watch?v=yuBsxV7c-ks&t=1959s"
             badges={["Music", "Breakcore", "DnB"]}
           />
+          <Video
+            title="breakcore mix for the insane"
+            url="https://www.youtube.com/watch?v=yuBsxV7c-ks&t=1959s"
+            badges={["Music", "Breakcore", "DnB"]}
+          />
+          <Video
+            title="breakcore mix for the insane"
+            url="https://www.youtube.com/watch?v=yuBsxV7c-ks&t=1959s"
+            badges={["Music", "Breakcore", "DnB"]}
+          />
+          <Video
+            title="breakcore mix for the insane"
+            url="https://www.youtube.com/watch?v=yuBsxV7c-ks&t=1959s"
+            badges={["Music", "Breakcore", "DnB"]}
+          />
+          <Video
+            title="breakcore mix for the insane"
+            url="https://www.youtube.com/watch?v=yuBsxV7c-ks&t=1959s"
+            badges={["Music", "Breakcore", "DnB"]}
+          />
+          <Video
+            title="breakcore mix for the insane"
+            url="https://www.youtube.com/watch?v=yuBsxV7c-ks&t=1959s"
+            badges={["Music", "Breakcore", "DnB"]}
+          />
         </VideoContainer>
       </Container>
     </ThemeProvider>

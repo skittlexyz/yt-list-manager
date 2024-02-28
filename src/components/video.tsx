@@ -45,17 +45,17 @@ function Video({ title, url, badges }: VideoProps) {
     }
 
     return (
-        <Card className='relative'>
+        <Card className='relative w-[100%] 2xl:w-[19%] xl:w-[32%] md:w-[49%]'>
             <CardHeader>
-                <CardTitle className='mb-1'>{title}</CardTitle>
+                <CardTitle className='mb-1 text-wrap'>{title}</CardTitle>
                 <CardDescription className='flex gap-1'>
                     {badges.map((badge, index) => (
                         <Badge key={index}><b>{badge}</b></Badge>
                     ))}
                 </CardDescription>
             </CardHeader>
-            <CardContent className='-mt-3'>
-                <img className='rounded-md h-[20vh] aspect-video' src={`${getThumbnail(url)}`} alt="" />
+            <CardContent className='-mt-3 w-auto aspect-video'>
+                <img className='rounded-md' src={`${getThumbnail(url)}`} alt="" />
             </CardContent>
             <CardFooter className='absolute bottom-0 right-0 mb-2 mr-2'>
                 <TooltipProvider>

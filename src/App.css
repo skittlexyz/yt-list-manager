@@ -7,5 +7,7 @@
   margin: 0 auto;
 }
 .custom-drop-shadow {
-  box-shadow: 0px 16px 20px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 52px 41px -46px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 52px 41px -46px rgba(0,0,0,0.25);
+  box-shadow: 0px 52px 41px -46px rgba(0,0,0,0.25);
 }
